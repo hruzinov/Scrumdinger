@@ -20,8 +20,14 @@
 		498A9DE728EC60B600D9C48A /* DetailEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498A9DE628EC60B600D9C48A /* DetailEditView.swift */; };
 		498A9DE928EC66DB00D9C48A /* ThemeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498A9DE828EC66DB00D9C48A /* ThemeView.swift */; };
 		498A9DEC28EC676800D9C48A /* ThemePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498A9DEB28EC676800D9C48A /* ThemePicker.swift */; };
+		498A9DEE28EC731200D9C48A /* MeetingHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498A9DED28EC731200D9C48A /* MeetingHeaderView.swift */; };
+		498A9DF028EC768800D9C48A /* ScrumProgressViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498A9DEF28EC768800D9C48A /* ScrumProgressViewStyle.swift */; };
+		498A9DF228EC78E700D9C48A /* ScrumTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498A9DF128EC78E700D9C48A /* ScrumTimer.swift */; };
+		498A9DF428EC7ABB00D9C48A /* MeetingFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498A9DF328EC7ABB00D9C48A /* MeetingFooterView.swift */; };
+		498A9DF628EC7E4800D9C48A /* AVPlayer+Ding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498A9DF528EC7E4800D9C48A /* AVPlayer+Ding.swift */; };
+		498A9DFB28EC7EE700D9C48A /* ding.wav in Resources */ = {isa = PBXBuildFile; fileRef = 498A9DFA28EC7EE700D9C48A /* ding.wav */; };
+		498A9DFE28EC7F0500D9C48A /* LICENSE.md in Resources */ = {isa = PBXBuildFile; fileRef = 498A9DFD28EC7F0500D9C48A /* LICENSE.md */; };
 		49BF127A28EC31B300CE077C /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 49BF127828EC31B200CE077C /* README.md */; };
-		49BF127B28EC31B300CE077C /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 49BF127928EC31B200CE077C /* LICENSE */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,8 +45,14 @@
 		498A9DE628EC60B600D9C48A /* DetailEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEditView.swift; sourceTree = "<group>"; };
 		498A9DE828EC66DB00D9C48A /* ThemeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeView.swift; sourceTree = "<group>"; };
 		498A9DEB28EC676800D9C48A /* ThemePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemePicker.swift; sourceTree = "<group>"; };
+		498A9DED28EC731200D9C48A /* MeetingHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingHeaderView.swift; sourceTree = "<group>"; };
+		498A9DEF28EC768800D9C48A /* ScrumProgressViewStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrumProgressViewStyle.swift; sourceTree = "<group>"; };
+		498A9DF128EC78E700D9C48A /* ScrumTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumTimer.swift; sourceTree = "<group>"; };
+		498A9DF328EC7ABB00D9C48A /* MeetingFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingFooterView.swift; sourceTree = "<group>"; };
+		498A9DF528EC7E4800D9C48A /* AVPlayer+Ding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AVPlayer+Ding.swift"; sourceTree = "<group>"; };
+		498A9DFA28EC7EE700D9C48A /* ding.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ding.wav; sourceTree = "<group>"; };
+		498A9DFD28EC7F0500D9C48A /* LICENSE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
 		49BF127828EC31B200CE077C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		49BF127928EC31B200CE077C /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = folder; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +69,10 @@
 		492D8C1A28EC376900EC26E2 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				492D8C1B28EC377B00EC26E2 /* Theme.swift */,
+				498A9DF528EC7E4800D9C48A /* AVPlayer+Ding.swift */,
 				492D8C1D28EC381900EC26E2 /* DailyScrum.swift */,
+				498A9DF128EC78E700D9C48A /* ScrumTimer.swift */,
+				492D8C1B28EC377B00EC26E2 /* Theme.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -69,10 +83,12 @@
 				492D8C2028EC386600EC26E2 /* CardView.swift */,
 				498A9DE628EC60B600D9C48A /* DetailEditView.swift */,
 				498A9DE428EC554B00D9C48A /* DetailView.swift */,
+				498A9DED28EC731200D9C48A /* MeetingHeaderView.swift */,
 				494F55FB28EC317000E99FF9 /* MeetingView.swift */,
 				492D8C2428EC3C2200EC26E2 /* ScrumsView.swift */,
 				498A9DEB28EC676800D9C48A /* ThemePicker.swift */,
 				498A9DE828EC66DB00D9C48A /* ThemeView.swift */,
+				498A9DF328EC7ABB00D9C48A /* MeetingFooterView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -80,9 +96,9 @@
 		494F55ED28EC317000E99FF9 = {
 			isa = PBXGroup;
 			children = (
-				49BF127928EC31B200CE077C /* LICENSE */,
-				49BF127828EC31B200CE077C /* README.md */,
+				498A9DFC28EC7EF700D9C48A /* LICENSE */,
 				494F55F728EC317000E99FF9 /* Products */,
+				49BF127828EC31B200CE077C /* README.md */,
 				494F55F828EC317000E99FF9 /* Scrumdinger */,
 			);
 			sourceTree = "<group>";
@@ -99,10 +115,12 @@
 			isa = PBXGroup;
 			children = (
 				494F55FD28EC317300E99FF9 /* Assets.xcassets */,
-				492D8C1F28EC385800EC26E2 /* Views */,
 				492D8C1A28EC376900EC26E2 /* Models */,
+				492D8C1F28EC385800EC26E2 /* Views */,
 				494F55FF28EC317300E99FF9 /* Preview Content */,
+				498A9DF928EC7ED700D9C48A /* Resources */,
 				494F55F928EC317000E99FF9 /* ScrumdingerApp.swift */,
+				498A9DEF28EC768800D9C48A /* ScrumProgressViewStyle.swift */,
 				492D8C2228EC3A3E00EC26E2 /* TrailingIconLabelStyle.swift */,
 			);
 			path = Scrumdinger;
@@ -114,6 +132,22 @@
 				494F560028EC317300E99FF9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		498A9DF928EC7ED700D9C48A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				498A9DFA28EC7EE700D9C48A /* ding.wav */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		498A9DFC28EC7EF700D9C48A /* LICENSE */ = {
+			isa = PBXGroup;
+			children = (
+				498A9DFD28EC7F0500D9C48A /* LICENSE.md */,
+			);
+			path = LICENSE;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -174,9 +208,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				498A9DFB28EC7EE700D9C48A /* ding.wav in Resources */,
 				49BF127A28EC31B300CE077C /* README.md in Resources */,
 				494F560128EC317300E99FF9 /* Preview Assets.xcassets in Resources */,
-				49BF127B28EC31B300CE077C /* LICENSE in Resources */,
+				498A9DFE28EC7F0500D9C48A /* LICENSE.md in Resources */,
 				494F55FE28EC317300E99FF9 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -189,8 +224,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				498A9DEC28EC676800D9C48A /* ThemePicker.swift in Sources */,
+				498A9DF028EC768800D9C48A /* ScrumProgressViewStyle.swift in Sources */,
+				498A9DF428EC7ABB00D9C48A /* MeetingFooterView.swift in Sources */,
+				498A9DF228EC78E700D9C48A /* ScrumTimer.swift in Sources */,
 				492D8C1E28EC381900EC26E2 /* DailyScrum.swift in Sources */,
 				498A9DE528EC554B00D9C48A /* DetailView.swift in Sources */,
+				498A9DEE28EC731200D9C48A /* MeetingHeaderView.swift in Sources */,
 				498A9DE728EC60B600D9C48A /* DetailEditView.swift in Sources */,
 				492D8C2328EC3A3E00EC26E2 /* TrailingIconLabelStyle.swift in Sources */,
 				492D8C1C28EC377B00EC26E2 /* Theme.swift in Sources */,
@@ -199,6 +238,7 @@
 				494F55FA28EC317000E99FF9 /* ScrumdingerApp.swift in Sources */,
 				498A9DE928EC66DB00D9C48A /* ThemeView.swift in Sources */,
 				492D8C2128EC386600EC26E2 /* CardView.swift in Sources */,
+				498A9DF628EC7E4800D9C48A /* AVPlayer+Ding.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
